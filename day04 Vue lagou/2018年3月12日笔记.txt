@@ -1,0 +1,11 @@
+
+
+vue-cli ：
+npm run build
+
+
+
+官方提供的 列表退回，仍在原来的位置，支持的是 history 模式。
+
+
+keep-alive  缓存组件， 切换路由不会再次进行渲染。

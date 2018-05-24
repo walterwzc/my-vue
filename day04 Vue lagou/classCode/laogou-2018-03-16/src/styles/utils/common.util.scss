@@ -1,0 +1,18 @@
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+$base-color: #00b38a;
+
+@font-face {
+  font-family: 'yofont';
+  src: url('../assets/fonts/iconfont.woff') format('woff'),
+  url('../assets/fonts/iconfont.ttf') format('truetype');
+}
+
+.swiper-container {
+  @include flex();
+  display: block;
+  width: 100%;
+}

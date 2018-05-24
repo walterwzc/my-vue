@@ -1,0 +1,42 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.comment-list li {
+    display: flex;
+}
+
+.comment-list li>div:first-child {
+    width: 80px;
+}
+
+.comment-list li>div:nth-child(2) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-list li>div:nth-child(2) span:first-child {
+    color: green;
+}
+
+.comment-list li>div:last-child {
+    width: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}

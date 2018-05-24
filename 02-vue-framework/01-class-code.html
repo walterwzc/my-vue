@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>02-vue-framework</title>
+    <link rel="stylesheet" href="semantic.min.css">
+    <script src="./vue.js"></script>
+    <style>
+        div.divClass {
+            /* font-size: 20px; */
+            color: red;
+            font-weight: 700;
+        }
+
+        .fontSize {
+            font-size: 90px;
+        }
+
+        .fontColor {
+            color: green;
+        }
+
+        .fontSize2 {
+            font-size: 100px;
+        }
+
+        .even {
+            font-size: 20px;
+        }
+
+        .odd {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div :title="imgSrc">{{message}}</div>
+        <div>
+            <img :src="imgSrc" :style="[{width: imgWidth, height: imgHeight}, trans]">
+        </div>
+        <div v-bind:test="imgSrc" :class="[divClass, fontSize, fontColor, {fontSize2}]">
+            {{(function(){return 1+1})()}}
+        </div>
+        <ul>
+            <li v-for="(c, i) in comments" :class="i%2 != 0 ? 'odd' : 'even'">
+                {{i}}-{{c.comment}}
+            </li>
+        </ul>
+        <div v-if="isShow">title, {{message}}</div>
+        <template>
+            <button @click="showTitle($event, 2)">显示</button>
+            <button @keyup="showTitle2">隐藏</button>
+            <input type="text" @keyup.enter="showTitle2">
+        </template>
+
+        <ol>
+            <li v-for="g in greeting">{{g}}</li>
+        </ol>
+
+        <ol>
+            <li v-for="(value, key) in courses">
+                {{key}}: {{value}}
+            </li>
+        </ol>
+
+        <ul>
+            <li v-for="x in 20">{{x}}</li>
+        </ul>
+
+        <div style="width: 90%;" class="ui green invert segment">
+            {{inputValue}}
+        </div>
+        <ul>
+            <li>
+                <input class="ui checkbox" value="a" type="checkbox" v-model="inputValue">
+                <input class="ui checkbox" value="b" type="checkbox" v-model="inputValue">
+                <input class="ui checkbox" value="c" type="checkbox" v-model="inputValue">
+            </li>
+            <li>
+                <input class="ui radio" value="a" type="radio" v-model="inputValue">
+                <input class="ui radio" value="b" type="radio" v-model="inputValue">
+                <input class="ui radio" value="c" type="radio" v-model="inputValue">
+            </li>
+            <li>
+                <select class="ui fluit dropdown" v-model="inputValue">
+                    <option value="a">aa</option>
+                    <option value="b">bb</option>
+                    <option value="c">cc</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+    <script src="01-class-code.js"></script>
+</body>
+
+</html>

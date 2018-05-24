@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Component</title>
+    <script src="vue.js"></script>
+</head>
+
+<body>
+    <h2>comment-component 作为全局组件， 可以在</h2>
+    <h2>id = app</h2>
+    <div id="app">
+        {{message}}
+        <comment-component text="按钮一" msg="aaa"></comment-component>
+        <comment-component text="按钮二" msg="bbb"></comment-component>
+        <comment-component text="按钮三" msg="ccc"></comment-component>
+        <list-component title="aaaaaaaaaaaaa">
+            <p slot="slot1">从父组件传递过来的值<span style="font-weight: bold; color: red;">{{message}}</span></p>
+        </list-component>
+    </div>
+
+    <hr>
+
+    <h2>id = app2</h2>
+    <div id="app2">
+        <comment-component text="按钮四" msg="ddd"></comment-component>
+        <comment-component text="按钮五" msg="eee"></comment-component>
+        <comment-component text="按钮六" msg="fff"></comment-component>
+        <list-component title="bbbbbbbbbbb">
+            <p slot="slot2">从父组件传递过来的值<span style="font-weight: bold; color: #41E2E2;">{{message}}</span></p>
+        </list-component>
+    </div>
+    <script src="01-component-basic.js"></script>
+</body>
+
+</html>

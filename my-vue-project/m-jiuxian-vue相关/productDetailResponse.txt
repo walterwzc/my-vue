@@ -1,0 +1,355 @@
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/28152"></a>
+    <img class="prodImg" src="https://img08.jiuxian.com/2017/0609/c7338b2aef2f4960bc2af0e172eca6b32.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/28152">53°白金酱酒（马到成功）500ml</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="promBox" id="promo_28152">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_28152" goodid=28152></strong>
+            <em class="clubPrice" id="clubPrice_28152">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="listIcon"></span>
+            <span class="t"> 98 % 好评</span>
+            <span class="t"> 3279 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/14642"></a>
+    <img class="prodImg" src="https://img09.jiuxian.com/2014/0630/7eb77227ad39494dba6cde86246cd6032.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/14642">53°茅台迎宾酒（新款）500ml（6瓶装）</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="promBox" id="promo_14642">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_14642" goodid=14642></strong>
+            <em class="clubPrice" id="clubPrice_14642">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="listIcon"></span>
+            <span class="t"> 92 % 好评</span>
+            <span class="t"> 3517 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/13604"></a>
+    <img class="prodImg" src="https://img10.jiuxian.com/2014/0922/6a4d60d20fe8466db95c74edbbe8e6d62.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/13604">【清仓】53°茅台不老酒（尚品）500ml</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="promBox" id="promo_13604">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_13604" goodid=13604></strong>
+            <em class="clubPrice" id="clubPrice_13604">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="listIcon"></span>
+            <span class="t"> 96 % 好评</span>
+            <span class="t"> 537 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/57604"></a>
+    <img class="prodImg" src="https://img10.jiuxian.com/2018/0116/7e5a08763d1c4b0290f7b3cc1fd9cebc2.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/57604">53°茅台股份国博1949新中国建国纪念酒酱香型白酒礼盒单支装500ml</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="sName">
+                    <i class="listIcon"></i>
+                    <span>鼎福瑞祥酒类精品店</span>
+                </span>
+                <span class="promBox" id="promo_57604">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_57604" goodid=57604></strong>
+            <em class="clubPrice" id="clubPrice_57604">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="t"> 100 % 好评</span>
+            <span class="t"> 300 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/47171"></a>
+    <img class="prodImg" src="https://img10.jiuxian.com/2017/0720/a6dad41338104754b191f9d4680325ae2.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/47171">【茅台特卖】52°贵州茅台酒厂集团茅乡封藏V28书本式礼盒装 500ml</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="sName">
+                    <i class="listIcon"></i>
+                    <span>酒方程酒类精品店</span>
+                </span>
+                <span class="promBox" id="promo_47171">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_47171" goodid=47171></strong>
+            <em class="clubPrice" id="clubPrice_47171">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="t"> 99 % 好评</span>
+            <span class="t"> 256 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/54126"></a>
+    <img class="prodImg" src="https://img10.jiuxian.com/2017/1120/8ce7702a5549435e9f72d9d2642a7c5d2.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/54126">42°贵州茅台镇赖贵初为人民服务浓香型白酒500ml*6（整箱）</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="sName">
+                    <i class="listIcon"></i>
+                    <span>鑫六福酒类旗舰店</span>
+                </span>
+                <span class="promBox" id="promo_54126">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_54126" goodid=54126></strong>
+            <em class="clubPrice" id="clubPrice_54126">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="t"> 97 % 好评</span>
+            <span class="t"> 321 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/53138"></a>
+    <img class="prodImg" src="https://img08.jiuxian.com/2017/1102/dff31b5d158e46e0b5280c52db75ea7f2.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/53138">53°贵州茅台集团 习酒喜万家 酱香型白酒500ml</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="sName">
+                    <i class="listIcon"></i>
+                    <span>方正酒坊精品店</span>
+                </span>
+                <span class="promBox" id="promo_53138">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_53138" goodid=53138></strong>
+            <em class="clubPrice" id="clubPrice_53138">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="t"> 98 % 好评</span>
+            <span class="t"> 172 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/45223"></a>
+    <img class="prodImg" src="https://img06.jiuxian.com/2017/0720/b0b4f33ae7f64fecb33de32d839c26712.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/45223">52°茅台集团白金原浆酒VIP封坛白酒500ml*6瓶 整箱装</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="sName">
+                    <i class="listIcon"></i>
+                    <span>朗格玛缔官方旗舰店</span>
+                </span>
+                <span class="promBox" id="promo_45223">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_45223" goodid=45223></strong>
+            <em class="clubPrice" id="clubPrice_45223">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="t"> 100 % 好评</span>
+            <span class="t"> 813 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/31971"></a>
+    <img class="prodImg" src="https://img10.jiuxian.com/2016/1206/95b9818170c54b329d2a4246ff0bfaa02.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/31971">42°茅台镇国酱1945浓香型白酒450ml*6瓶 整箱装</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="sName">
+                    <i class="listIcon"></i>
+                    <span>朗格玛缔官方旗舰店</span>
+                </span>
+                <span class="promBox" id="promo_31971">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_31971" goodid=31971></strong>
+            <em class="clubPrice" id="clubPrice_31971">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="t"> 98 % 好评</span>
+            <span class="t"> 2545 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/31922"></a>
+    <img class="prodImg" src="https://img08.jiuxian.com/2017/1103/166ed876b8f6407a92c412f625af86852.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/31922">52°贵州茅台镇紫气东来1500ml</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="sName">
+                    <i class="listIcon"></i>
+                    <span>茂盛酒城官方旗舰店</span>
+                </span>
+                <span class="promBox" id="promo_31922">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_31922" goodid=31922></strong>
+            <em class="clubPrice" id="clubPrice_31922">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="t"> 99 % 好评</span>
+            <span class="t"> 918 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/50213"></a>
+    <img class="prodImg" src="https://img09.jiuxian.com/2017/0911/bcf4246036b34ae9a66fd6ac180d9a932.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/50213">52度贵州茅台集团封藏原浆V30珍藏级500ml （单瓶）</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="sName">
+                    <i class="listIcon"></i>
+                    <span>久臻酒类精品店</span>
+                </span>
+                <span class="promBox" id="promo_50213">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_50213" goodid=50213></strong>
+            <em class="clubPrice" id="clubPrice_50213">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="t"> 97 % 好评</span>
+            <span class="t"> 315 人评论</span>
+        </div>
+    </div>
+</li>
+<li class="clearfix">
+    <a class="prodLink" href="https://m.jiuxian.com/m_v1/goods/view/13249"></a>
+    <img class="prodImg" src="https://img08.jiuxian.com/2014/0113/3765f21590e74ad0ac87fab274f6dbe52.jpg" />
+    <div class="prodInfo">
+        <div class="prodName">
+            <p class="name">
+                <a href="https://m.jiuxian.com/m_v1/goods/view/13249">53°茅台迎宾酒（新款）500ml</a>
+            </p>
+            <p class="nameAndPro">
+                <span class="promBox" id="promo_13249">
+
+                </span>
+            </p>
+        </div>
+        <div class="price clearfix">
+            <strong class="nowPrice_13249" goodid=13249></strong>
+            <em class="clubPrice" id="clubPrice_13249">
+                <font></font>
+            </em>
+        </div>
+        <div class="pro">
+            <span class="listIcon"></span>
+            <span class="t"> 92 % 好评</span>
+            <span class="t"> 3517 人评论</span>
+        </div>
+    </div>
+</li>
+</ul>
+<p class="tips">加载中…</p>
+<input type="hidden" id="pageUrl" value="https://mlist.jiuxian.com/m_v1/search/filterPage/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/3/mark?v=1.0&keyword=茅台"
+/>
+<script type="text/javascript">
+    getProductActivitys("28152,14642,13604,57604,47171,54126,53138,45223,31971,31922,50213,13249,");
+</script>

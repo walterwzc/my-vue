@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue.js TODOLIST</title>
+    <script src="./vue.js"></script>
+    <style>
+        span {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <ol>
+            <li v-for="(item, index) in list">
+                {{item}}
+                <span @click="removeItem(index)">X</span>
+            </li>
+        </ol>
+        <div>
+            <input type="text" @keyup.enter="changeValue" v-model="inputValue">
+        </div>
+    </div>
+    <script src="03-todo-list-vue.js"></script>
+</body>
+
+</html>

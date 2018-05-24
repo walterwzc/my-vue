@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vue-getting-started</title>
+    <script src="./vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div v-show="isShow" v-bind:title="title">{{message}}</div>
+        <div>
+            <input type="text" v-model="message" />
+        </div>
+        <ul>
+            <li v-for="course in courses">
+                {{course}}
+            </li>
+        </ul>
+        <button v-on:click="showMessage">按钮</button>
+
+        <my-component content="自定义1"></my-component>
+        <my-component content="自定义2"></my-component>
+        <my-component content="自定义3"></my-component>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

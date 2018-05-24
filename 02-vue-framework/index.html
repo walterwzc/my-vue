@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>计算属性与监听器</title>
+    <script src="vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div>{{ filterGenderMethod() }}</div>
+        <div>{{ filterGenderMethod() }}</div>
+        <div>{{ filterGenderComputed }}</div>
+        <div>{{ filterGenderComputed }}</div>
+        <div>
+            <hr>
+            <p>这个input 使用 v-bind 和 @input 实现了双向的数据绑定：</p>
+            <input type="text" v-bind:value="message" @input='changeMsg($event)'><br/>
+            <hr>
+            <p>这个input 只是 使用 v-bind 将vm 的 message 属性 单向绑定到了 View层</p>
+            <input type="text" :value="message">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
