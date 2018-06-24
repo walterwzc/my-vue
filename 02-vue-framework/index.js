@@ -36,6 +36,7 @@ const vm = new Vue({
     // 检测属性变化
     watch: {
         'str': function (newValue, oldValue) {
+            console.log(newValue + " : " + oldValue);
             this.getData(2)
         }
     },

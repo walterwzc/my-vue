@@ -1,6 +1,8 @@
 const CButton = {
     template: `
-        <button>reply</button>
+        <button>
+            <slot></slot>
+        </button>
     `
 }
 
@@ -15,7 +17,7 @@ const CommentItem = {
                 <span>今天天气不错</span>
             </div>
             <div>
-                <c-button></c-button>
+                <c-button>回复</c-button>
             </div>
         </li>
     `,
@@ -28,7 +30,7 @@ const FormBox = {
     template: `
         <div class="form-box">
             <textarea name="name" rows="8" cols="80"></textarea>
-            <c-button></c-button>
+            <c-button>提交</c-button>
         </div>
     `,
     components: {

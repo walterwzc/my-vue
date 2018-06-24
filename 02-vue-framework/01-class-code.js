@@ -87,5 +87,6 @@ const vm = new Vue({
 vm.$mount('#app')
 
 vm.$watch('count', (newValue, oldValue) => {
+    console.log('in watch');
     console.log(vm.count * 2);
 })

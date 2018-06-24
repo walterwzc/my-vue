@@ -15,6 +15,7 @@ const Child = {
             <span>触发事件的子元素</span><br>
             触发事件的子元素的count：   {{count}}<br>
             <button @click="add">按钮</button><br>
+            这个button不仅会增加自身的属性的count， 而且会会将自身的count发送给父元素
             <hr>
         </div>
     `,
@@ -38,8 +39,9 @@ const Child2 = {
         <div>
             <hr>
             <span>被触发事件的子元素</span><br>
-            {{id}}<br>
+            父元素的属性id： {{id}}<br>
             <button @click="add">按钮</button><br>
+            这个button不仅会增加自身的count， 而且会
             <hr>
         </div>
     `,
@@ -59,6 +61,7 @@ const vm = new Vue({
         <div>
             <div>这里是父元素</div>
             <div>父元素的counter：  {{counter}}</div>
+            <div>父元素的passId：  {{passId}}</div>
             <child @do-add="count"></child>
             <child2 @do-add="count" :id="passId"></child2>
         </div>

@@ -26,6 +26,10 @@ const store = new Vuex.Store({
     },
 
     getters: {
+        originalArray(state) {
+            return state.count
+        },
+
         total(state) {
             return state.count.length
         },
@@ -43,9 +47,10 @@ const store = new Vuex.Store({
         getCount(context) {
             axios.get('http://localhost:8090/api/count')
                 .then((result) => {
-
-                    console.log(result);
-
+                    console.log('-------')
+                    // console.log(result);
+                    // 这个context对象是一个类似于store的对象
+                    console.log(context);
                     context.commit('setCount', result.data)
                 })
         }
@@ -61,11 +66,13 @@ const vm = new Vue({
             <button @click="add">add</button>
             <button @click="remove">remove</button>
             <hr />
+            <div>数组的内容是： {{originalArray}}</div>
             <div>个数是：{{total}}, 总和是: {{sum}}</div>
         </div>
     `,
     computed: {
         ...mapGetters([
+            'originalArray',
             'total',
             'sum',
             'average'
@@ -103,6 +110,7 @@ const vm = new Vue({
 
     // 由 Vue Component 来 dispatch action ， dispatch 会在 action 之中寻找对应的方法( 在 Action 之中可以声明异步的代码 )。
     mounted() {
+        console.log('mounted');
         // this.$store.commit('getCount')
         this.$store.dispatch('getCount')
 

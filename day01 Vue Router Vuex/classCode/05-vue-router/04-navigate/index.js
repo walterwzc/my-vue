@@ -16,7 +16,7 @@ const Page404 = {
 
 const Home = {
     // <about id="xxx"></about>   在主页之中也使用了 ： about 模块， 其给 id 传了 id="xxx" 。
-    // 在路由之中定义：  pros: true, 表名 子组件 不仅可以接受 父组件 传递过来的值， 同时可以接受 URL 传递过来的值。
+    // 在路由之中定义：  pros: true, 表明 子组件 不仅可以接受 父组件 传递过来的值， 同时可以接受 URL 传递过来的值。
     template: '<div>这是首页 {{$route.query.id}} <about id="xxx"></about></div>',
     components: {
         Page404,
