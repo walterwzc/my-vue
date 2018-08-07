@@ -17,13 +17,13 @@
 </template>
 
 <script>
-import PositionList from "../position/PositionList";
-import NavComponent from "./NavComponent";
+import PositionList from '../position/PositionList'
+import NavComponent from './NavComponent'
 
 export default {
-  components: {
-    PositionList,
-    NavComponent
-  }
-};
+    components: {
+        PositionList,
+        NavComponent
+    }
+}
 </script>

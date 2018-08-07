@@ -1,10 +1,10 @@
 <template lang="html">
     <div class="wrapper">
-    <header-component></header-component>
-    <menu-component></menu-component>
-    <content-component></content-component>
-    <footer-component></footer-component>
-    <sidebar-component></sidebar-component>
+        <header-component></header-component>
+        <menu-component></menu-component>
+        <content-component></content-component>
+        <footer-component></footer-component>
+        <sidebar-component></sidebar-component>
     </div>
 </template>
 

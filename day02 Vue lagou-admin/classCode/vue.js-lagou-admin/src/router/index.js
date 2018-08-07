@@ -8,21 +8,21 @@ import PositionList from '@/components/position/PositionList'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/position',
-      redirect: '/position/0'
-    },
-    {
-      path: '/position/:pageno',
-      name: 'position',
-      component: PositionList,
-      props: true
-    }
-  ]
+    routes: [
+        {
+            path: '/',
+            name: 'home',
+            component: Home
+        },
+        {
+            path: '/position',
+            redirect: '/position/0'
+        },
+        {
+            path: '/position/:pageno',
+            name: 'position',
+            component: PositionList,
+            props: true
+        }
+    ]
 })

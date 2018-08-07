@@ -5,19 +5,19 @@
 </template>
 
 <script>
-import NavComponent from "../layout/NavComponent.vue";
+import NavComponent from '../layout/NavComponent.vue'
 export default {
-  created() {
-    this.$store.commit("setNav", {
-      title: "首页",
-      subtitle: "欢迎信息",
-      navLevel1: "首页",
-      navLevel2: "welcome",
-      url: "#/"
-    });
-  },
-  components: {
-    NavComponent
-  }
-};
+    created() {
+        this.$store.commit('setNav', {
+            title: '首页',
+            subtitle: '欢迎信息',
+            navLevel1: '首页',
+            navLevel2: 'welcome',
+            url: '#/'
+        })
+    },
+    components: {
+        NavComponent
+    }
+}
 </script>

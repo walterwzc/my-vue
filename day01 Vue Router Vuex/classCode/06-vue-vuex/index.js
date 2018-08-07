@@ -62,6 +62,7 @@ const vm = new Vue({
     store,
     template: `
         <div>
+            <div>state 的 count 数组的平均值是：</div>
             <div>{{average}}</div>
             <button @click="add">add</button>
             <button @click="remove">remove</button>
@@ -92,19 +93,19 @@ const vm = new Vue({
         // }
     },
     methods: {
-        ...mapMutations([
-            'add',
-            'remove'
-        ])
+        // ...mapMutations([
+        //     'add',
+        //     'remove'
+        // ])
 
         // 如果不使用 mapMutations 的方式：
-        // add() {
-        //     this.$store.commit('add', Math.floor(Math.random() * (10 - 1) + 1));
-        // }
+        add() {
+            this.$store.commit('add', 111);
+        },
 
-        // remove() {
-        //     this.$store.commit('remove');
-        // }
+        remove() {
+            this.$store.commit('remove');
+        }
 
     },
 

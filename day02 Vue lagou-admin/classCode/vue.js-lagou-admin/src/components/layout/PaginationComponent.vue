@@ -14,10 +14,9 @@
 
 <script>
 export default {
-    props: ["pageno", "pagesize", "pagecount"]
-};
+    props: ['pageno', 'pagesize', 'pagecount']
+}
 </script>
 
 <style lang="css">
-
 </style>
