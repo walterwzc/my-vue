@@ -11,6 +11,7 @@ const Child = {
     // @click 定义 HTML元素 事件 
     template: `
         <div>
+            <h2>Child</h2>
             <hr>
             <span>触发事件的子元素</span><br>
             触发事件的子元素的count：   {{count}}<br>
@@ -37,11 +38,12 @@ const Child2 = {
     },
     template: `
         <div>
+            <h2>Child2</h2>
             <hr>
             <span>被触发事件的子元素</span><br>
             父元素的属性id： {{id}}<br>
             <button @click="add">按钮</button><br>
-            这个button不仅会增加自身的count， 而且会
+            这个button不仅会增加自身的count， 而只会增加父组件的Counter
             <hr>
         </div>
     `,
@@ -68,7 +70,7 @@ const vm = new Vue({
     `,
     data: {
         counter: 0,
-        passId: 0
+        passId: 123321
     },
     components: {
         Child,

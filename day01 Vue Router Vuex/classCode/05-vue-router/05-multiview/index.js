@@ -20,7 +20,7 @@ const routes = [
         path: "/",
 
         // 命名路由，在 router-view 之中，通过 name 属性来访问。
-        name: "home",
+        // name: "home",
         components: {
 
             // 如果在 router-view 之中 不指定 name，那么默认访问的路由
@@ -39,24 +39,16 @@ const vm = new Vue({
     el: "#app",
     router,
     template: `
-    <div>
-        <router-view name="home"></router-view>
-        <div>-------------</div>
-        <router-view name="about"></router-view>
-        <div>-------------</div>
-        <router-view></router-view>
-    </div>
-    `,
-    methods: {
-        toPage(path) {
-            // let params = this.$route.params.id
-            // this.$router.push(path + params)
-            this.$router.replace({
-                // name: path == '/' ? 'home' : 'about',
-                // params: { id: 55 },
-                path,
-                query: { id: 65 }
-            });
-        }
-    }
+        <div>
+            <div>below is home router-view: </div>
+            <router-view name="home"></router-view>
+            <div>-------------</div>
+            <div>below is home about-view: </div>
+            <router-view name="about"></router-view>
+            <div>-------------</div>
+            <div>below is home default  view: </div>
+            <router-view></router-view>
+            <div>-------------</div>
+        </div>
+    `
 });

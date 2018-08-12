@@ -4,9 +4,11 @@ const About = {
     props: ["id"],
     // 注意： 在这里使用的是 $route， 而不是 $router!!!
     // {{$router.query.name}}
-    template: "<div>这是关于我们, id的值通过 RESTFUL的URL来传递，其值为：{{id}}， name通过query来传递， 其值为： {{$route.query.name}}  </div>",
-    mounted() {
-        // console.log(this);
+    template: "<div>这是关于我们, id的值通过 RESTFUL的URL : (/about/:id) -> 来传递，其值为：{{id}}， name通过query来传递， 其值为： {{$route.query.name}}  </div>",
+    created() {
+        console.log('--------ABOUT')
+        console.log(this.$route);
+        console.log('--------ABOUT')
     }
 };
 
@@ -17,10 +19,15 @@ const Page404 = {
 const Home = {
     // <about id="xxx"></about>   在主页之中也使用了 ： about 模块， 其给 id 传了 id="xxx" 。
     // 在路由之中定义：  pros: true, 表明 子组件 不仅可以接受 父组件 传递过来的值， 同时可以接受 URL 传递过来的值。
-    template: '<div>这是首页 {{$route.query.id}} <about id="xxx"></about></div>',
+    template: '<div>这是首页, $route.params.id -> {{$route.params.id}} <about id="!!this id is passed from father component!!"></about></div>',
     components: {
         Page404,
         About
+    },
+    created() {
+        console.log('--------HOME')
+        console.log(this.$route)
+        console.log('--------HOME')
     }
 };
 
@@ -53,6 +60,8 @@ const vm = new Vue({
         <div>
             <button @click="toPage('/')">首页</button>
             <button @click="toPage('/about')">关于我们</button>
+            <p>below is router-view: </p>
+            <hr/>
             <router-view></router-view>
         </div>
     `,

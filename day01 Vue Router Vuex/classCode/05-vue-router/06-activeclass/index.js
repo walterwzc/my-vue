@@ -15,11 +15,6 @@ const routes = [
         path: "/",
         component: Home
     },
-    // {
-    //   path: '/home',
-    //   component: Home,
-    //   name: 'home'
-    // },
     {
         path: "/about",
         component: About,
@@ -42,6 +37,7 @@ const vm = new Vue({
         <div>
             <router-link active-class="active" tag="li" exact to="/">首页</router-link>
             <router-link active-class="active" tag="li" to="/about">关于我们</router-link>
+            <hr/>
             <router-view></router-view>
         </div>
     `

@@ -36,6 +36,7 @@ const vm = new Vue({
     router,
     template: `
         <div>
+            <h3>/, /home, /about   router 可用。</h3>
             <router-view></router-view>
         </div>
     `
